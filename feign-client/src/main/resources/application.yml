@@ -1,0 +1,23 @@
+server:
+  port: 8762
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+      cors:
+        allowed-origins: "*"
+        allowed-methods: "*"
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+spring:
+  application:
+    name: feign-client
+  redis:
+    database: 0
+    password: 1234
+    host: 39.105.37.199
+    port: 6379
+    timeout: 50000

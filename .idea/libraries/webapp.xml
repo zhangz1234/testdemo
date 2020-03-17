@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="webapp">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../sdhr/src/main/webapp/WEB-INF/lib/aspose-cells-19.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
